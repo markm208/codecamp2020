@@ -1,0 +1,9 @@
+Write a program (in a new folder with a file called main.js) that calculates how many years until you graduate college and what year that will be. 
+- Create variables to hold:
+  -- your name
+  -- your current grade number (8, 10)
+  -- the current year number (2020)
+- Then calculate and store in a variable
+  -- the number of years until graduate
+  -- the year when that will happen
+Print the name, number of years until graduation, and what year it will be when that happens

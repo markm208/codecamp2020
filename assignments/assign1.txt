@@ -1,0 +1,6 @@
+Install VS Code (first check to see if it is already installed)
+Install node
+Create the codecamp2020 directory somewhere (Documents)
+Create the subdirectory program01
+Create main.js inside program01
+Write the code to print your name three times and run the program

@@ -12,7 +12,8 @@ dogAge = 10;
 humanAge = ((dogAge - 1) * 7) + 1;
 
 //print the dog age and calculated human age
-console.log('The dog age ' + dogAge + ' is equal to the human age ' + humanAge);
+//console.log('The dog age ' + dogAge + ' is equal to the human age ' + humanAge);
+console.log(`The dog age ${dogAge} is equal to the human age ${humanAge}`);
 
 //print just the variables by themselves
 console.log(dogAge);
