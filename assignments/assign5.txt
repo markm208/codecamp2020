@@ -1,0 +1,15 @@
+Write a program that creates variables for the height and width of a sheet of a plywood board in feet and inches. For example, 3'2" X 4'6" means that there is a board that is three feet, two inches in height and four feet, six inches in width.
+
+This is how you would create variables for these four numbers.
+
+let heightInFeet; //can hold a number like 3
+let heightInInches; //can hold a number like 2
+
+let widthInFeet; //can hold a number like 4
+let widthInInches; //can hold a number like 6
+
+Fill in the values for these variables in your code.
+
+The program must calculate exactly how many square feet are in the board (in this case 14.25 sqft) and how many square inches are in the board (in this case 2052).
+
+A square foot is a 12 inch by 12 inch section of board.

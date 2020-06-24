@@ -1,0 +1,9 @@
+Write a program that has variables for three numbers- one representing an hour, one representing a minute, and one representing a second. 
+
+let hour; //could be something like 14 (2 pm)
+let minute; //could be something like 24
+let second; //could be something like 36
+
+Next, fill in these variables with some values and calculate the number of seconds until midnight of that day. In other words, how many seconds from the time in the variables above until midnight.
+
+Print the number of seconds until midnight on the screen.

@@ -1,0 +1,16 @@
+Write a program that will determine how much gas your car will need to make a trip given its fuel capacity. Your program should create and fill in a variable for the distance in miles of the trip. Then the program should create and fill variables for the make and model of the vehicle (for output purposes), the fuel tank capacity in gallons, and the number of miles per gallon.
+
+let distance = 1000; //1000 miles
+let make = 'Ford';
+let model = 'F150';
+let fuelTankCapacity = 20; //20 gallon tank
+let milesPerGallon = 20; //20 miles per gallon
+
+Calculate how many gallons of gas are required for the trip, how many full tanks of gas will be needed (this is the number of times that you will need to stop for gas assuming you start with a full tank) and how many gallons of gas will be left in the tank after you reach your destination.
+
+let gallonsRequired;
+let numTimesToStopForGas;
+let gallonsLeftInTank;
+
+Display the information like this:
+For a trip of 1000 miles, a Ford F150 requires 50 gallons of gas, will require 2 stops for gas and will have 10 gallons of gas in the tank when the trip is complete.
