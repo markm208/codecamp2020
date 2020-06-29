@@ -1,0 +1,16 @@
+Write a program to determine if one date comes after another. 
+
+The program will have variables for two sets of dates. 
+
+Next, the program will determine if the first date comes before, is equal to, or comes after.
+
+Here is a sample run of the program:
+First month: 2
+First day: 21
+First year: 2012
+ 
+Second month: 2
+Second day: 22
+Second year: 2011
+ 
+The first date comes after the second.

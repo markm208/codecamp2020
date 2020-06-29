@@ -1,0 +1,29 @@
+Write a program that will calculate change for a sales purchase. 
+
+Your program will have a variable for a sales price. Fill in the value for this variable in your code. 
+
+Next, create a variable for the amount that the customer will pay to the cashier. Validate that this value is greater than or equal to the sales price. 
+
+If it is not, display an error message and end the program. If the entry is correct, your program must calculate the amount of change the cashier must return to the user. 
+
+Next, calculate what bills and coins that the the cashier needs to return to the customer. The fewest number of paper bills and coins should be returned. You can make change in many different combinations, however, the only correct implementation is the one that returns the fewest paper bills and coins.
+
+Display the number of each of the bills and coins. Here is a sample run of the program:
+
+Sales amount: $20.38
+Amount the customer pays: $30.00
+
+The change due back is $9.62
+
+You should give the customer this change: 
+0 $100 bills
+0 $50 bills
+0 $20 bills
+0 $10 bills
+1 $5 bills
+4 $1 bills
+1 Half Dollars
+0 Quarters
+1 Dimes
+0 Nickels
+2 Pennies

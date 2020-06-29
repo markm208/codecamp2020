@@ -1,0 +1,13 @@
+Write a program that has two variables that represent ages and print out different statements based on the two ages.
+
+If both ages are 16 years or over then print out:
+"Both can drive"
+
+If either person is 21 or over then print out:
+"At least one can buy alcohol"
+
+If one person is 25 or over and the other isn’t print out:
+"One can be a senator"
+
+If neither age is 35 or older then print out:
+"Neither can become President"
