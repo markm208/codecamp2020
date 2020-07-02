@@ -1,0 +1,26 @@
+Create two array variables:
+- an array with all of the month names (strings)
+- an array with the number of whole days in each month (integers)
+
+Then, use the arrays to verify whether a date is valid or not. If the date is valid print out the month name , date, and year like this: "March 19, 1973". If it is not valid print out an error message like "Invalid Date".
+
+Create variables for the inputs:
+let monthNumber = 3;
+let dayNumber = 19; //what if I put in 32 here? That is an invalid date!
+let yearNumber = 1973;
+
+Use the arrays and an if/else statement to determine if the date is valid.
+
+Hint: Here are the number of days in each of the months
+January 31
+February 28
+March 31
+April 30
+May 31
+June 30
+July 31
+August 31
+September 30
+October 31
+November 30
+December 31
