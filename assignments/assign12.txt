@@ -1,0 +1,7 @@
+Write a program that will determine whether a number is prime or not. A prime number is any number that is evenly divisible only by the number one and itself.
+ 
+7 is prime because the only numbers that divide into it without a remainder are 1 and 7.
+ 
+12 is not prime because the numbers that divide into it are 1, 2, 3, 4, 6, and 12.
+ 
+Your program will have a variable for the number to check and then display whether the number is prime or not. The number entered must be a positive number.

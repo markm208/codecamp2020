@@ -1,0 +1,7 @@
+Write a program that will calculate the sum of the squares from 1 up to and including that number. 
+
+For example if the requested value was 5 then the sum of the squares for the numbers one through five would be (1 + 4 + 9 + 16 + 25) = 55.
+
+Create a variable to hold the ending value (5 in this example). Then create a loop counter variable that will control a loop to move through the values starting at 1.
+
+You will need another variable to hold the running sum of all the squared values. After the loop is complete display the sum of the squares.
