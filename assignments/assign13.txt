@@ -1,0 +1,14 @@
+Write a program that allows the user to enter in a month number (between 1-12) and a day number within that month (1-31) and calculates the day number in the year. January 1 is day 1. January 31 is day 31. February 1 is day 32. February 28 is day 59. December 31 is day 365 (don’t worry about leap year). 
+
+Create variables for the month number and day number and fill them in with your code. If the user enters an invalid combination (like February 31) the program should display an error message and end.
+
+Use an array of integers to hold the number of days in each of the months. Use the array to keep a running sum to help with your day calculations. 
+
+//number of days in each of the months
+let numDaysInMonths = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+//the day you are trying to calculate
+let monthNumber = 3;
+let dayNumber = 19;
+
+//what other variables do you need??

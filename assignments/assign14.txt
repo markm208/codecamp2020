@@ -1,0 +1,18 @@
+Write a program that allows the user to enter in a day number (1-365) and prints out the month name and day number of that month. If the user enters in 59 the program should print out:
+ 
+Day 59 is February 28
+ 
+If the user enters an invalid day number display an error message and end the program.
+ 
+Use an array of integers to hold the number of days in each of the months. Use the array to keep a running sum to help with your day calculations. 
+ 
+//number of days in each of the months
+let numDaysInMonths = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+//names of the months
+let monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+//day number to calculate a date for
+let dayNumber = 59;
+
+//what other variables do you need??
