@@ -1,3 +1,7 @@
 Link to the code playback:
 
 https://ourcodestories.com/markm208/Playlist/15/Playback/424
+
+Link to the second loops and 2D array playback:
+
+https://ourcodestories.com/markm208/Playlist/15/Playback/425
