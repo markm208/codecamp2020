@@ -1,0 +1,18 @@
+Write a program that will print a calendar for January. The calendar output is determined by the day that January 1st falls on. 
+
+The format of your calendar should be very similar to the example below. 
+
+       January
+ S  M  T  W  T  F  S
+---------------------
+          1  2  3  4
+ 5  6  7  8  9 10 11
+12 13 14 15 16 17 18
+19 20 21 22 23 24 25
+26 27 28 29 30 31
+
+In this run of the program the first day of January is Wednesday. I would suggest having a variable to hold a number between 0-6 for each of the days of the week (0 for Sunday, 1 for Monday, 2 for Tuesday, and so on). In this case the value would stored in the variable is 3 for Wednesday.
+
+The program has to print the heading, some number of blanks before printing the day numbers, and then the 31 days in January.
+
+You can print the days with loops and two dimensional arrays. I would create a two dimensional array to hold the days. There are seven days in a week and there can be as many as six rows in a January.
