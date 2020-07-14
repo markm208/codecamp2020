@@ -1,0 +1,20 @@
+Update the previous calendar printing program so that it includes a function to print any calendar month. Then use the function to print out all twelve months of a year. The function will look like this:
+
+function printMonth(monthName, numDaysInMonth, firstDayOfMonth) {
+    //print a month
+}
+
+Here is a description of the parameters:
+monthName- a string with the name of the month, for example, 'January' or 'September'
+numDaysInMonth- a number that says how many days are in the month, for example, 28, 30, or 31
+firstDayOfMonth- a number between 0-6 that represents the days of the week, for example, 0 for Sunday, 1 for Monday, etc.
+
+The program should create a loop (outside of the printMonth() function) that calls it 12 times. You can use data from two arrays to pass in to the function:
+
+//number of days in each of the months
+let numDaysInMonths = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+//names of the months
+let monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+By the end, the program should print out the entire calendar based on the starting day of January 1st (0-6).

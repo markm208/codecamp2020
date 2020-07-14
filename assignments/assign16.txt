@@ -1,0 +1,9 @@
+Write a function called isPrime() that takes a number and returns true if the number is prime and false if it is not (you can use any old code that you have if you think it will help).
+
+function isPrime(numToCheck) {
+    //code to determine if the number numToCheck is prime
+
+    //return a true or false value
+}
+
+Next, write some code that calls it repeatedly to print all of the primes between 2 - 1000.
