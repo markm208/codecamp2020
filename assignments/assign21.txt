@@ -1,0 +1,20 @@
+Write a program that takes a series of strings in an array that represent on-ice shift times like this:
+
+'p1 9:58 p1 8:48'
+'p1 7:12 p1 6:31'
+'p1 5:08 p1 3:49'
+'p1 0:58 p2 12:18'
+...
+
+and determines the amount of time a player is on the ice. Assume each period is 13 minutes.
+
+So, the first string 'p1 9:58 p1 8:48' means that the skater was on the ice from 9:58 in the first period to 8:48 in the same period. This is 70 seconds. Another way to represent 70 seconds is like this 1:10.
+
+Keep a running sum of the number of minutes and seconds of ice time and display the players total ice time for a game.
+
+Hints: 
+- Look at this web page that discusses the string's split function:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+- Number('123') converts a string to the Number type that can be stored in a variable. 
+- turn each time into a number of seconds in the period, for example 10:18  is (60 + 60 + 42 = 162) seconds into the period. Then use these values to determine the difference between an on-ice and an off-ice time.
+

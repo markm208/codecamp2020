@@ -1,0 +1,12 @@
+Write a program that has an array of jersey numbers for a hockey team like this:
+
+let jerseyNumbers = [45, 57, 9, 31, 56, 78, 31];
+
+Next, use it to determine if a requested jersey number is free or not.
+
+//is this jersey number available??
+let requestedNumber = 30;
+
+The program should display whether the requested jersey number is available or not.
+
+if the jersey number is NOT available count how many jersey numbers in the array are above it and how many are below it.
