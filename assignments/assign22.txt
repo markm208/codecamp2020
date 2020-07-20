@@ -1,0 +1,8 @@
+Write a program that reads in some data from a file called goalies.txt and prints each goalies name like this:
+
+Mahoney, P. 
+Picard, J.
+Nixon, R.
+Parton, D.
+
+The file can be found in the lesson 7 folder in the github repo. You can copy and paste it into your program's folder.

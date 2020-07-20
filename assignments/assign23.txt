@@ -1,0 +1,11 @@
+Write a program that reads in some data from a file called goalies.txt and calculates each one's save percentage.
+
+This is similar to a previous program but in that case the data was hard coded into the program.
+
+In this one, read in the file and then separate the goalie data before calculating the save percentages.
+
+Use functions so that you don't have one huge loop.
+
+function printStats(goalieFirstName, goalieLastName, savesArray) {
+
+}
