@@ -1,0 +1,11 @@
+Write a program that will find the number of days in between two dates.
+
+For example, if I would like to know how many days I have been alive I would enter my birth date (3/19/1973) and today's date. The program must find out how many whole days are in between these two dates (include the starting and ending date).
+
+If the two dates are in the same year then the algorithm to find the number of days may be different than if the dates are in different years. Your program must handle each case.
+
+Use an array with the number of days in each month and write these functions:
+function numberOfDaysLeftInMonth(monthNumber, dayNumber, year)
+function numberOfDaysLeftInYear(monthNumber, year)
+function numberOfDaysInYear(year)
+function isLeapYear(year)
