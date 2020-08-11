@@ -1,0 +1,14 @@
+Create a class that represents a date (with a month, day, and year).
+
+The class should have a constructor that takes a value for the month, day, and year. Verify that this is a valid date before setting the values.
+
+Include two methods to print the date like this:
+
+printShort() "11/5/2004"
+printLong() "November 5, 2004"
+
+Then create a few dat objects in a main() function and print them out.
+
+Finally, create a method called compare() that returns a -1 if one date comes before another, 0 if they are the same date, and a +1 if one date comes after another.
+
+Use this method (and its return value) to print which of two dates comes first.
