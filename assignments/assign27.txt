@@ -1,0 +1,80 @@
+Part 1
+Create a class that represents a dictionary. The dictionary will read in words 
+from a file (the file will hold words in alphabetical order) and allow the 
+user of the class to search to see if a word is present in the collection of 
+words.
+ 
+The class should have a constructor that takes the path to a dictionary file 
+and should include a method called search() that takes a word to search for 
+and returns either a true or false. Since the words will be in order when 
+they are read from the file you should attempt to use the binary search 
+algorithm we talked about in class.
+ 
+Write a driver program to create an instance of the class and use it to search 
+for words in your dictionary file like this:
+
+let dictionary = new Dictionary('bigDictionary.txt');
+
+let testWords = ['cattle', 'mob', 'efzrutwoa', 'wqqw'];
+for(let i = 0;i < testWords.length;i++) {
+    if(dictionary.search(testWords[i])) {
+        console.log(`The word ${testWords[i]} was found in the dictionary`);
+    } else {
+        console.log(`The word ${testWords[i]} was NOT found in the dictionary`);
+    }
+}
+
+Part 2
+Extend the dictionary class from part 1 to create a spellchecker. The new dictionary 
+should be able to search for a word, and if the word is not found, make some 
+suggestions for the misspelled word. The suggestions should come from the list 
+of words in the dictionary.
+
+The class should be used to create a program that will perform a spell check on 
+the contents of a file. For example, if the file contained this text:
+
+I have a dpg that can run very fast.
+
+the program should indicate that there is a misspelled word, dpg, and offer some 
+suggestions of what to replace that word with.
+
+Think about the cause of misspelled words when typing on a keyboard. Misspellings 
+are often caused by either a typo or the author simply not knowing the correct 
+spelling. A typo is defined as mistyping a single letter. In the example above, 
+the letter 'p' is next to the letter 'o' on the keyboard, I consider this a typo- 
+I typed the wrong key even though I knew how to spell the word.
+
+If I don't know how to spell a word I usually can come pretty close:
+
+I will recieve a corect copy next week.
+
+Here I misspelled two words, but I came pretty close to getting the spelling 
+correct, that is, many of the letters are correct and in the proper order.
+
+Think about ways to suggest words for those that were misspelled. If the user 
+made a typo how would you make good suggestions? If the word didn't have typos, 
+but was misspelled think about how you could make suggestions.
+
+Here is a (not so great) example of what I am looking for in the output:
+
+Welcome to the SpellCheck program!
+
+The contents of the file are:
+
+I will recieve a corect copy next week.
+
+recieve is misspelled
+Here are some suggestions:
+receive
+record
+even
+evening
+event
+ever
+every
+
+corect is misspelled
+Here are some suggestions:
+corn
+corner
+correct
